@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.narutolimit.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AddNinjutsuAMixin",
+    "AddNinjutsu10Mixin",
+    "AddTaijutsuAMixin",
+    "AddTaijutsu10Mixin",
+    "AddDojutsuAMixin",
+    "AddDojutsu10Mixin",
+    "AddChakraAMixin",
+    "AddChakra10Mixin",
+    "AddHealthAMixin",
+    "AddHealth10Mixin",
+    "AddGenjutsuAMixin",
+    "AddIntelligenceAMixin",
+    "AddIntelligence10Mixin",
+    "AttributebBugFixMixin",
+    "ReturnSumMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
